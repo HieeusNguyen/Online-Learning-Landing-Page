@@ -22,6 +22,10 @@ body {
     margin: 0 auto;
 }
 
+.main-content-2 {
+    width: 1024px;
+}
+
 a {
     text-decoration: none;
 }
@@ -34,6 +38,11 @@ a {
     height: 68px;
     background-color: var(--primary-color);
     border-radius: 14px;
+}
+
+.heading {
+    font-weight: 700;
+    color: #0d1111;
 }
 
 /* Header */
@@ -98,10 +107,8 @@ a {
 
 .hero .heading {
     margin-top: 18px;
-    font-weight: 700;
     font-size: 6.2rem;
     line-height: 1.16;
-    color: #0d1111;
 }
 
 .hero .desc {
@@ -132,7 +139,7 @@ a {
     color: #ffffff;
 }
 
-.hero .cta-group button{
+.hero .cta-group button {
     width: 62px;
     height: 62px;
     border-radius: 50%;
@@ -141,3 +148,59 @@ a {
     background-color: transparent;
     cursor: pointer;
 }
+
+/* Features */
+.features {
+    margin-top: 65px;
+    padding: 65px 0;
+}
+
+.features .heading.lv2 {
+    margin-top: 18px;
+    width: 577px;
+    font-size: 4.2rem;
+    line-height: 1.33;
+}
+
+.feature-top .desc {
+    margin-top: 18px;
+    width: 590px;
+    font-size: 1.8rem;
+    line-height: 1.6875;
+    color: #767e7e;
+}
+
+.features-list {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-item:nth-child(1)
+{
+    width: 168px;
+}
+.feature-item:nth-child(2)
+{
+    width: 223px;
+}
+.feature-item:nth-child(3)
+{
+    width: 224px;
+}
+
+.features-list .title {
+    margin-top: 26px;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #0d1111;
+}
+
+.feature-item .desc {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.69;
+    color: #9da6a5;
+}
+
+
