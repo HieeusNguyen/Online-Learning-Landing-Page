@@ -62,6 +62,12 @@ a {
     color: #0d1111;
 }
 
+.avatar{
+    position: absolute;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 /* Header */
 .header {
     padding-top: 44px;
@@ -97,7 +103,7 @@ a {
     font-weight: 600;
     font-size: 1.6rem;
     color: var(--primary-color);
-    border: 1px solid #1ebfc1;
+    border: 1px solid var(--primary-color);
     border-radius: 6px;
 }
 
@@ -238,7 +244,7 @@ a {
 }
 
 .courses .courses-top .view-all {
-    color: #1ebfc1;
+    color: var(--primary-color);
     font-size: 1.4rem;
     font-weight: 700;
     text-decoration-line: underline;
@@ -301,7 +307,7 @@ a {
 }
 
 .courses-list ul li {
-    color: #1ebfc1;
+    color: var(--primary-color);
     list-style: disc;
 }
 
@@ -328,4 +334,124 @@ a {
     color: #767e7e;
     text-align: center;
     font-size: 1.8rem;
+}
+
+/* Testimonial */
+.testimonial {
+    margin-top: 134px;
+    padding: 65px 0;
+}
+
+.testimonial .body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial .content {
+    width: 35.8%;
+    height: 407px;
+}
+
+.testimonial blockquote {
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    line-height: 1.5; /* 150% */
+}
+
+.testimonial .sign {
+    margin-top: 33px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.testimonial .strikethrough {
+    width: 8px;
+    height: 2px;
+    background: #070707;
+}
+
+.testimonial .name {
+    color: #767e7e;
+    font-size: 1.6rem;
+}
+
+.testimonial strong {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.testimonial .controls{
+    margin-top: 52px;
+    display: flex;
+    gap: 30px;
+}
+
+.testimonial .control-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #2AC9BF;
+    color: #2AC9BF;
+}
+
+.testimonial .control-btn:hover{
+    color: #ffffff;
+    background-color: #2AC9BF;
+    cursor: pointer;
+}
+
+.testimonial .info{
+    position: relative;
+    width: 58%;
+    height: 481px;
+}
+
+.testimonial .avatar-6{
+    top: 107px;
+    left: 273px;
+    width: 235px;
+    height: 235px;
+}
+
+.testimonial .avatar-1{
+    top: 0;
+    left: 144px;
+    width: 92px;
+    height: 92px;  
+}
+
+.testimonial .avatar-2{
+    top: 19px;
+    right: 0;
+    width: 110px;
+    height: 110px;
+}
+
+.testimonial .avatar-3,
+.testimonial .avatar-4,
+.testimonial .avatar-5{
+    width: 78px;
+    height: 78px;
+}
+
+.testimonial .avatar-3{
+    top: 258px;
+    left: 0;
+}
+
+.testimonial .avatar-4{
+    left: 212px;
+    bottom: 0;
+}
+
+.testimonial .avatar-5{
+    left: 569px;
+    bottom: 29px;
 }
