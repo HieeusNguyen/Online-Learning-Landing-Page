@@ -43,6 +43,9 @@ a {
     height: 68px;
     background-color: var(--primary-color);
     border-radius: 14px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #ffffff;
 }
 
 .heading {
@@ -62,7 +65,7 @@ a {
     color: #0d1111;
 }
 
-.avatar{
+.avatar {
     position: absolute;
     object-fit: cover;
     border-radius: 50%;
@@ -156,10 +159,7 @@ a {
 }
 
 .hero .cta-group a {
-    font-weight: 600;
-    font-size: 1.8rem;
     text-align: center;
-    color: #ffffff;
 }
 
 .hero .cta-group button {
@@ -342,7 +342,7 @@ a {
     padding: 65px 0;
 }
 
-.testimonial .body{
+.testimonial .body {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -384,50 +384,50 @@ a {
     font-weight: 500;
 }
 
-.testimonial .controls{
+.testimonial .controls {
     margin-top: 52px;
     display: flex;
     gap: 30px;
 }
 
-.testimonial .control-btn{
+.testimonial .control-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 2px solid #2AC9BF;
-    color: #2AC9BF;
+    border: 2px solid #2ac9bf;
+    color: #2ac9bf;
 }
 
-.testimonial .control-btn:hover{
+.testimonial .control-btn:hover {
     color: #ffffff;
-    background-color: #2AC9BF;
+    background-color: #2ac9bf;
     cursor: pointer;
 }
 
-.testimonial .info{
+.testimonial .info {
     position: relative;
     width: 58%;
     height: 481px;
 }
 
-.testimonial .avatar-6{
+.testimonial .avatar-6 {
     top: 107px;
     left: 273px;
     width: 235px;
     height: 235px;
 }
 
-.testimonial .avatar-1{
+.testimonial .avatar-1 {
     top: 0;
     left: 144px;
     width: 92px;
-    height: 92px;  
+    height: 92px;
 }
 
-.testimonial .avatar-2{
+.testimonial .avatar-2 {
     top: 19px;
     right: 0;
     width: 110px;
@@ -436,22 +436,44 @@ a {
 
 .testimonial .avatar-3,
 .testimonial .avatar-4,
-.testimonial .avatar-5{
+.testimonial .avatar-5 {
     width: 78px;
     height: 78px;
 }
 
-.testimonial .avatar-3{
+.testimonial .avatar-3 {
     top: 258px;
     left: 0;
 }
 
-.testimonial .avatar-4{
+.testimonial .avatar-4 {
     left: 212px;
     bottom: 0;
 }
 
-.testimonial .avatar-5{
+.testimonial .avatar-5 {
     left: 569px;
     bottom: 29px;
+}
+
+/* Subcription */
+.subcription {
+    margin-top: 65px;
+    background-color: #def6f5;
+}
+
+.subcription .body {
+    display: flex;
+    align-items: center;
+    padding: 76px 0 88px;
+}
+
+.subcription .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+}
+
+.subcription .cta {
+    margin-left: 410px;
 }
