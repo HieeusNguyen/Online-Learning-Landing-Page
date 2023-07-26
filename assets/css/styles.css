@@ -477,3 +477,57 @@ a {
 .subcription .cta {
     margin-left: 410px;
 }
+
+/* Footer */
+.footer {
+    padding: 130px 0 50px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .column:nth-child(2) {
+    width: 7.7%;
+}
+
+.footer .column:nth-child(4) {
+    width: 13.4%;
+}
+.footer .column:nth-child(3),
+.footer .column:nth-child(5) {
+    width: 9.65%;
+}
+
+.footer .title {
+    margin-bottom: 5px;
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer .list a {
+    display: block;
+    margin-top: 20px;
+    color: #535353;
+    font-size: 1.6rem;
+}
+
+.footer .social {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.footer .social a {
+    margin-top: 0;
+}
+
+.footer .copy-right {
+    margin-top: 80px;
+    text-align: center;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+}
